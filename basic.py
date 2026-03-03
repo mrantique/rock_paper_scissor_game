@@ -24,10 +24,11 @@ while running:
         print("computer win! ")
 
     play_again = input("play again? (y/n): ")
-    if play_again == "y":
+    if play_again != "y":
         running = False
 
 print("thanks for playing ")
+
 
 
 
